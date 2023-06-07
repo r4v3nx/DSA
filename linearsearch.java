@@ -19,5 +19,6 @@ public class linearsearch {
             }
         }
         return -1;
+
     }
 }
