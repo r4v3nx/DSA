@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe5ddcbc-d449-44a8-8a6e-f76ed20be91d" name="Changes" comment="added linearsearch">
-      <change afterPath="$PROJECT_DIR$/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="DSA" />
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchin2darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchin2darray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InfiniteArray" />
         <item itemvalue="Application.smallestletter" />
         <item itemvalue="Application.CeilingOfNumber" />
-        <item itemvalue="Application.searchin2darray" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +101,7 @@
       <workItem from="1686034008211" duration="4629000" />
       <workItem from="1686140354418" duration="3576000" />
       <workItem from="1686201839916" duration="1920000" />
-      <workItem from="1688657764015" duration="1018000" />
+      <workItem from="1688657764015" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="added linearsearch">
       <created>1685848341534</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685848341534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added linearsearch">
+      <created>1688659044189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688659044189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
