@@ -70,26 +70,66 @@ for(int i=0; i<n; i++){
     for(int j=0; j<n-i-1; j++){
         System.out.print(" ");
     }
-    for(int k=0; k<i+1; k++){
+    for(int j=0; j<i+1; j++){
         System.out.print("* ");
     }
-    for(int l=0; l<n-i-2; l++){
+    for(int j=0; j<n-i-2; j++){
         System.out.print(" ");
     }
     System.out.println();
     
 }
-for(int m=0; m<n; m++){
-    for(int y=0; y<m; y++){
+for(int i=0; i<n; i++){
+    for(int j=0; j<i; j++){
         System.out.print(" ");
     }
-    for(int x=0; x<n-m; x++){
+    for(int j=0; j<n-i; j++){
         System.out.print("* ");
     }
-    for(int z=0; z<m-1; z++){
+    for(int j=0; j<i-1; j++){
         System.out.print(" ");
     }
     System.out.println();
 }
     }
 }
+/*
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+       */
+
+void playButton(int n) {
+        // code here
+        for(int i=0; i<n; i++){
+            for(int j=0; j<i+1; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for(int i=0; i<n-1; i++){
+            for(int j=0; j<n-i-1; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+/*
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+* 
+*/
